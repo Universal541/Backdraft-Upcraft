@@ -54,3 +54,11 @@ The gallery in `catalog.html` uses 21 of those sheets; other assets are retained
 **To publish all artwork:** unzip the provided asset ZIP on your computer and copy its `assets` directory contents into the repository `assets` directory, maintaining folder paths. Using local Git is the easiest way to commit all 26 image assets in one push; alternatively upload the logo into `assets/` and the 25 catalog images into `assets/catalog/` using GitHub's browser upload UI. Pushing a ZIP file alone will not unpack it for the site.
 
 Some images show historical conceptual prices. These are intentionally marked as illustrated estimates, not verified offers. Earlier pricing notes include Roundhouse sizes 24″ $99, 30″ $129, 36″ $159, 48″ $199, 54″ $249; Homestead Sentinel from $149; Compartment of Questionable Ideas from $249. Before displaying these as actual selling prices, verify costs and specifications. Some catalog artwork may contain inconsistent historical price references.
+
+## November 3: Print-shop redesign and lookbook
+- The homepage and catalog index use a warmer trade-print design system with condensed woodtype-inspired display fonts, parchment tones, oxblood/rust ink, and asymmetric catalog cards.
+- Homepage featured cards now display relevant original catalog sheets rather than placeholder SVG illustrations.
+- `flipbook.html` is a self-contained static page-turning reader; no Worker or database is required. It supports two-page desktop spreads, single-page mobile mode, keyboard navigation, swipe navigation, thumbnail navigation, and full-image opening.
+- Catalog index stays available for filterable discovery; the flipbook is an alternate editorial presentation.
+- The current catalog images were designed as standalone flyers. They should be redesigned into a consistent editorial catalog edition: sparse cover/section branding, simplified product spreads, removed repeated logos, legible specifications, and consistently labeled provisional starting prices. Do not overwrite historic original sheets.
+- Next: create a separate source-of-truth catalog file with product IDs, descriptions, materials, status, starting price, currency, date/assumption, customization options, and original versus revised artwork. Confirm pricing before implying an item can be ordered.
