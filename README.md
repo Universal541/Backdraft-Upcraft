@@ -37,3 +37,9 @@ No secret key is required in the public site for a standard Formspree form endpo
 
 ## Notes
 This is a starter public-facing website. Copy and illustrative category names should be reviewed before commercial launch.
+## Official logo (asset awaiting repository upload)
+The canonical official logo was provided by the owner November 3, 2026. The website already has image slots for `assets/backdraft-upcraft-logo.webp` in the header, hero, and footer. Until that image is uploaded, existing text branding is displayed instead of a broken image.
+
+To finish integration: download the optimized logo file provided in the chat and upload it via GitHub's **Add file → Upload files** into a newly created `assets` folder at repository root, preserving the exact filename `backdraft-upcraft-logo.webp`. GitHub's browser upload UI may require creating the folder first; the image can also be uploaded via a local Git commit.
+
+Product transparency: all depicted collection products are concept illustrations. The Spoolhouse Bar, Iron Horse Across the Valley spool-end pyrography, and bespoke humidor for Sean are initial planned physical builds, not completed inventory. Do not publish unverified catalog prices or mark products completed until actual build evidence is available.
