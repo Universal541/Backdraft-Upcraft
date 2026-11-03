@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#292b23"><meta name="description" content="Turn the pages of the Backdraft Upcraft concept lookbook: reclaimed-material furniture, outdoor living, craftsmanship and unusual ideas.">
+<title>Workshop Lookbook | Backdraft Upcraft</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Libre+Baskerville:ital,wght@0,400;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#eadfc7;--ink:#282d25;--rust:#9d4b2c;--line:#6d634c;--light:#f6ead5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#292c24;color:var(--paper);font:15px/1.6 'Libre Baskerville',Georgia,serif}
+a{color:inherit}button{cursor:pointer}button:disabled{opacity:.3;cursor:not-allowed}
+.wrap{max-width:1360px;margin:auto;padding:0 22px}
+header{background:#e4d5b8;border-bottom:6px solid var(--rust);color:var(--ink);padding:15px 0}
+.head{display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font:800 1.9rem 'Barlow Condensed',sans-serif;text-decoration:none;text-transform:uppercase;letter-spacing:.04em}
+.links{display:flex;gap:22px;font:700 1rem 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.08em}.links a{text-decoration:none}.links a:hover{color:var(--rust)}
+.intro{display:flex;justify-content:space-between;gap:45px;align-items:end;padding:38px 0 25px;border-bottom:1px solid #73644a}
+.kicker{font:800 .95rem 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.2em;color:#c68c60}
+h1{font:800 clamp(3.5rem,7vw,7.5rem)/.86 'Barlow Condensed',Impact,sans-serif;text-transform:uppercase;letter-spacing:.015em;margin:15px 0 18px}
+.intro p{max-width:600px;color:#d1c3a8;margin-bottom:0}.caution{max-width:350px;border-left:5px solid #bf8353;background:#3a372c;padding:17px 20px;font-size:.79rem;color:#e4d1b4}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;padding:20px 0}
+.controls{display:flex;gap:8px;align-items:center}button,.toolbar a{background:#e2d4b7;border:2px solid #171b16;color:#24271e;padding:9px 17px;font:800 .93rem 'Barlow Condensed',sans-serif;letter-spacing:.07em;text-transform:uppercase;text-decoration:none}
+button:hover:not(:disabled),.toolbar a:hover{background:#b86743;color:white}.counter{font:800 1rem 'Barlow Condensed',sans-serif;letter-spacing:.08em;text-transform:uppercase}
+.book-frame{border:8px solid #131710;background:#151912;padding:24px;box-shadow:0 18px 45px #1118;min-height:610px;display:flex;align-items:center;justify-content:center;position:relative;perspective:1800px}
+.book{display:flex;justify-content:center;width:100%;gap:0;align-items:stretch;max-width:920px;min-height:550px}
+.page{background:#eadab7;position:relative;aspect-ratio:3/4;max-height:700px;flex:0 1 50%;min-width:0;overflow:hidden;box-shadow:inset 0 0 30px #6a533f70;transform-style:preserve-3d}
+.page:first-child{border-right:2px solid #554331}.page:last-child{border-left:1px solid #7a6245}
+.page img{width:100%;height:100%;object-fit:contain;display:block}
+.page .blank{height:100%;background:repeating-linear-gradient(90deg,#dfcda9,#e6d7b8 16px,#e0cfac 17px);display:flex;flex-direction:column;justify-content:center;align-items:center;color:#49372c;font:700 2rem 'Barlow Condensed',sans-serif;text-align:center;padding:20px}
+.page-turn-next .page:last-child{animation:flipNext .52s ease}.page-turn-prev .page:first-child{animation:flipPrev .52s ease}
+@keyframes flipNext{0%{transform:rotateY(0)}50%{transform:rotateY(-21deg);filter:brightness(.65)}100%{transform:rotateY(0)}}@keyframes flipPrev{0%{transform:rotateY(0)}50%{transform:rotateY(21deg);filter:brightness(.65)}100%{transform:rotateY(0)}}
+.thumbnail-track{display:flex;gap:12px;overflow-x:auto;scrollbar-color:#8d7957 #272c25;padding:20px 0 28px}.thumb{position:relative;padding:0;border:3px solid transparent;background:transparent;flex:none;width:68px;height:92px;opacity:.66}.thumb img{display:block;width:100%;height:100%;object-fit:cover}.thumb.selected{border-color:#dcb57d;opacity:1}.thumb:hover{opacity:1}
+.guide{color:#c4b59a;font-size:.77rem;text-align:center;padding:2px 0 30px}.guide a{color:#f0ce93}
+@media(min-width:950px){.book{max-width:900px}.page{max-height:600px}}
+@media(max-width:750px){.head,.intro{align-items:start;flex-direction:column}.intro{gap:20px}.links{flex-wrap:wrap;gap:13px}.book-frame{padding:9px;min-height:auto}.book{min-height:0}.page{flex:0 1 100%;max-width:480px}.page.mobile-hidden{display:none}h1{font-size:clamp(3.5rem,13vw,6rem)}.toolbar a{display:none}}
+@media(prefers-reduced-motion:reduce){.page-turn-next .page:last-child,.page-turn-prev .page:first-child{animation:none}}
+</style></head>
+<body><header><div class="wrap head"><a href="index.html" class="brand">Backdraft Upcraft</a><nav class="links" aria-label="Primary"><a href="index.html">Workshop</a><a href="catalog.html">Browse collections</a><a href="index.html#contact">Commission a creation</a></nav></div></header>
+<main class="wrap"><section class="intro"><div><div class="kicker">The illustrated workshop ledger / Volume One</div><h1>Turn the page.<br>Make something.</h1><p>Browse the original Backdraft Upcraft concept sheets like an old-fashioned trade catalog. Use the arrows, keyboard, or thumbnails below. Tap a page to see its full-sized artwork.</p></div><div class="caution"><strong>CONCEPT LOOKBOOK · NOT AN INVENTORY</strong><br>Illustrations depict proposed designs, not completed goods. Any prices printed on these historic sheets are preliminary design estimates, subject to confirmation and change. No ordering is available through this reader.</div></section>
+<div class="toolbar"><div class="controls"><button id="previous" type="button" aria-label="Turn to previous pages">← Previous</button><button id="next" type="button" aria-label="Turn to next pages">Next →</button></div><div class="counter" id="counter" role="status" aria-live="polite"></div><a href="catalog.html">View filterable index ↗</a></div>
+<div class="book-frame" id="frame"><div class="book" id="book"><div class="page" id="left"></div><div class="page" id="right"></div></div></div>
+<div class="thumbnail-track" id="thumbnails" aria-label="Go to catalog page"></div>
+<p class="guide">Keyboard: ← and → to turn pages. On phones, swipe left or right. Click any printed page to open the full image. <a href="index.html#contact">Ask about a concept →</a></p>
+</main>
+<script>
+(()=>{
+const pages=[
+['03','Cover — Backdraft Upcraft'],['02','Campfire Parliament'],['04','Firewatch'],['05','Bird Sanctuary'],['07','Spoolhouse Lounge'],['08','Last Call Whiskey Cabinet'],['09','Roundhouse and Command Post'],['10','Iron Horse'],['11','Campfire Parliament — Lifestyle'],['12','Emergency Decision Platform'],['13','Spice Workstation'],['14','Roundhouse and Homestead Sentinel'],['15','Spoolspire Bedroom Collection'],['16','The Waystation'],['17','Cartographer, Compass Rose and Oracle Wheel'],['18','Spoolhouse Wet Bar'],['19','The Crossing'],['21','Compartment of Questionable Ideas'],['22','The Lookout'],['23','The Meeting Adjourned'],['24','Switchyard and Signal Lantern'],['25','Art Collection']];
+const left=document.getElementById('left'),right=document.getElementById('right'),counter=document.getElementById('counter'),prev=document.getElementById('previous'),next=document.getElementById('next'),track=document.getElementById('thumbnails'),frame=document.getElementById('frame');
+let page=0;const mobile=()=>window.matchMedia('(max-width:750px)').matches;
+const src=i=>'assets/catalog/'+pages[i][0]+'.webp';
+const renderPage=(el,i)=>{if(i<0||i>=pages.length){el.innerHTML='<div class="blank">BACKDRAFT<br>UPCRAFT</div>';return}const img=document.createElement('img');img.src=src(i);img.alt=pages[i][1]+' — illustrated concept catalog sheet';img.loading='eager';el.replaceChildren(img);el.onclick=()=>window.open(src(i),'_blank','noopener');el.style.cursor='zoom-in'};
+function render(){const single=mobile(),start=single?page:Math.floor(page/2)*2;renderPage(left,start);renderPage(right,single?-1:start+1);right.classList.toggle('mobile-hidden',single);counter.textContent=single?'Page '+(start+1)+' of '+pages.length:'Pages '+(start+1)+(start+1<pages.length?'–'+(start+2):'')+' of '+pages.length;prev.disabled=start===0;next.disabled=start+(single?1:2)>=pages.length;document.querySelectorAll('.thumb').forEach((t,i)=>{t.classList.toggle('selected',single?i===page:Math.floor(i/2)===Math.floor(page/2));t.setAttribute('aria-current',(single?i===page:Math.floor(i/2)===Math.floor(page/2))?'page':'false')});const active=track.querySelector('.selected');if(active)active.scrollIntoView({inline:'nearest',block:'nearest',behavior:'smooth'})}
+function turn(delta){const step=mobile()?1:2;const n=Math.max(0,Math.min(pages.length-1,(mobile()?page:Math.floor(page/2)*2)+delta*step));if(n===page)return;page=n;frame.classList.remove('page-turn-next','page-turn-prev');void frame.offsetWidth;frame.classList.add(delta>0?'page-turn-next':'page-turn-prev');render()}
+pages.forEach(([id,title],i)=>{const b=document.createElement('button');b.className='thumb';b.type='button';b.title=title;b.setAttribute('aria-label','Go to page '+(i+1)+': '+title);const im=document.createElement('img');im.loading='lazy';im.src=src(i);im.alt='';b.append(im);b.onclick=()=>{page=i;render()};track.append(b)});
+prev.onclick=()=>turn(-1);next.onclick=()=>turn(1);
+document.addEventListener('keydown',e=>{if(['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName))return;if(e.key==='ArrowRight')turn(1);if(e.key==='ArrowLeft')turn(-1)});
+let startX=null;frame.addEventListener('touchstart',e=>{startX=e.changedTouches[0].screenX},{passive:true});frame.addEventListener('touchend',e=>{if(startX===null)return;const d=e.changedTouches[0].screenX-startX;if(Math.abs(d)>55)turn(d<0?1:-1);startX=null},{passive:true});
+window.addEventListener('resize',render);render();
+})();
+</script></body></html>
